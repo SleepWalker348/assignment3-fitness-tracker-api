@@ -104,7 +104,6 @@ public class Main {
 
 
 
-
             List<Exercise> exercises = exerciseService.getAllExercises();
             if (!exercises.isEmpty()) {
                 int exerciseIdToDelete = exercises.getFirst().getExerciseId();
