@@ -56,7 +56,6 @@ public class Main {
 
 
 
-
             CardioWorkout newCardioWorkout = new CardioWorkout( "Jog", "Beginner",
                     LocalDate.of(2026, 1, 15), 30, 140);
             workoutService.createWorkout(newCardioWorkout);
