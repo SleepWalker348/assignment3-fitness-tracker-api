@@ -1,4 +1,4 @@
-package exception;
+package exceptions;
 
 public class DatabaseOperationException extends Exception {
     public DatabaseOperationException(String message) {
