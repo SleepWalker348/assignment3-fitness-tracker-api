@@ -1,6 +1,8 @@
-package model;
+package models;
 
-import exception.InvalidInputException;
+import exceptions.InvalidInputException;
+import models.interfaces.Displayable;
+import models.interfaces.Validatable;
 
 public abstract class Exercise implements Validatable, Displayable {
     private int exerciseId;
@@ -50,7 +52,7 @@ public abstract class Exercise implements Validatable, Displayable {
             }
         } else if (workout instanceof CardioWorkout) {
             if (strengthCount >= cardioCount) {
-                throw new InvalidInputException("Too much strength exercises in strength workout");
+                throw new InvalidInputException("Too much strength exercises in cardio workout");
             }
         }
     }

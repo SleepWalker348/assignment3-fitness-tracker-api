@@ -1,6 +1,6 @@
-package model;
+package models;
 
-import exception.InvalidInputException;
+import exceptions.InvalidInputException;
 
 import java.time.LocalDate;
 

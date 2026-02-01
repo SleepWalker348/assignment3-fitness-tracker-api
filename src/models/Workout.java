@@ -1,6 +1,7 @@
-package model;
+package models;
 
-import exception.InvalidInputException;
+import exceptions.InvalidInputException;
+import models.interfaces.Validatable;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public abstract class Workout implements Validatable{
+public abstract class Workout implements Validatable {
     private int workoutId;
     private String name;
     private String workoutLevel;

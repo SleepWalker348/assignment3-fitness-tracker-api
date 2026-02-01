@@ -1,6 +1,6 @@
-package model;
+package models;
 
-import exception.InvalidInputException;
+import exceptions.InvalidInputException;
 
 public class CardioExercise extends Exercise {
     private double distance;
