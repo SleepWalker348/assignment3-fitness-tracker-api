@@ -1,6 +1,6 @@
 package data;
 
-import exception.DatabaseOperationException;
+import exceptions.DatabaseOperationException;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
